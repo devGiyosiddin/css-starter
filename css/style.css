@@ -11,6 +11,11 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: 3px dashed blue;
+  outline-offset: 3px;
+}
+
 body {
   height: 100%;
   display: flex;
