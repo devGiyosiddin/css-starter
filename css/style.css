@@ -21,7 +21,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: ;
+  font-weight: ;
   line-height: 1.5;
   color: #222;
   padding: 0;
@@ -66,3 +67,9 @@ img {
 
 
 /* RETINA */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {}
